@@ -1,11 +1,6 @@
 package com.igor.cursojava.aula06collections;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class CollectionSetExer03 {
 
@@ -13,7 +8,7 @@ public class CollectionSetExer03 {
 		
 		int numeros;
 		
-		List<Integer> meuset = new ArrayList<Integer>();
+		Set<Integer> meuset = new HashSet<>();
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -24,7 +19,6 @@ public class CollectionSetExer03 {
 			
 			}
 
-	Collections.sort(meuset);
 	Iterator<Integer> imeuset = meuset.iterator();
 	
 	System.out.println("Listar dados do set: ");
